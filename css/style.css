@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.tracks {
+    list-style: decimal;
+    margin-left: 50px;
+}
+
+.track {
+    position: relative;
+    padding-top: 15px;
+}
+
+.modal {
+    position: absolute;
+    left: 400px;
+}
+
+.modalWindow {
+    width: 100%;
+  height: 100vh;
+    font-size: 48px;
+    z-index: 1;
+    position: absolute;
+        background-color:rgb(245, 236, 236);
+        top: 0;
+       display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
